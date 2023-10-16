@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(to left, #E6DFDA,#C3CED1, #C29D9E,#e49fb3, #Df829D);
+}
+
+/* Navbar CSS */
+
+
+nav {
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(162, 202, 202);
+}
+
+
+.nav-links {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    font-family: cormorant garamond;
+    display:inline-flex;
+    gap: 30px;
+    
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-family: 'Cormorant Garamond', serif;
+    color: #643a5a;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+/* introduction css */
+
+.book {
+    display: inline-block;
+}
+
+.book img {
+    
+    
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.book p {
+    font-weight: bold;
+    color:rgb(22, 88, 88);
+    line-height: 1.6; /* Adjust this value as needed */
+    font-size: 18px; /* Adjust this value as needed */
+    text-align: justify;
+    text-align-last: left;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* history css */
+.history {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    
+}
+.history h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #80316d;
+
+}
+
+.history p {
+    line-height: 1.6; 
+    font-size: 16px; 
+    text-align: justify;
+    text-align-last: left;
+    font-family: 'Cormorant Garamond', serif;
+    color: #2e1428;
+    font-weight: bold;
+}
+
+/* video css */
+
+.lecture video{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 100px;
+
+}
+
